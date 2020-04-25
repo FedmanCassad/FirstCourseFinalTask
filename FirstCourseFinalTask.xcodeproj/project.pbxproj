@@ -84,8 +84,8 @@
 		741469B01F9E37F600A1B130 /* FirstCourseFinalTask */ = {
 			isa = PBXGroup;
 			children = (
+				D8B37C9F2454CF410070119A /* Model */,
 				D8B37C94245359B20070119A /* Controller */,
-				D8B37C93245359AA0070119A /* Model */,
 			);
 			path = FirstCourseFinalTask;
 			sourceTree = "<group>";
@@ -98,7 +98,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8B37C93245359AA0070119A /* Model */ = {
+		D8B37C94245359B20070119A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				741469B11F9E37F600A1B130 /* main.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8B37C9F2454CF410070119A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				D8B37C95245359C80070119A /* Post.swift */,
@@ -107,15 +115,7 @@
 				D8B37C9B24535A3B0070119A /* PostStorageClass.swift */,
 				D8B37C9D24535A790070119A /* Extensions.swift */,
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		D8B37C94245359B20070119A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				741469B11F9E37F600A1B130 /* main.swift */,
-			);
-			path = Controller;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
